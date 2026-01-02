@@ -379,7 +379,9 @@ nav img {
 }
 
 .proj {
-    padding: 0 3vw;
+    padding-bottom: 5vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
     width: 100%;
     display: flex;
     align-items: center;
@@ -420,4 +422,64 @@ nav img {
 
 .proj h4:hover a {
     color: black;
+}
+
+
+.page4-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+    /* background-color: aqua; */
+    position: relative;
+    /* padding: 0 2vw; */
+}
+
+.page4-bottom .left {
+    padding: 0 2vw;
+    height: 100%;
+    width: 65%;
+    /* background-color: crimson; */
+    display: flex;
+    justify-content: center;
+    padding: 0vw 5vw;
+    flex-direction: column;
+}
+
+.page4-bottom .right {
+    padding: 1vw 2vw;
+    height: 100%;
+    width: 50%;
+    /* background-color: yellow; */
+}
+
+.page4-bottom .right img {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.page4-bottom .left-part1 {
+    padding-bottom: 3vw;
+}
+
+.page4-bottom .left-part1 h1 {
+    font-size: 5vw;
+    color: #5a5656a9;
+    padding-left: 1vw;
+    border-left: 2px solid red;
+    cursor: pointer;
+}
+
+.page4-bottom .left p {
+    font-weight: 100;
+    width: 100%;
+    text-align: left;
+}
+
+.page4-bottom .left-part1 .design {
+    color: #fff;
+    padding-left: 2.5vw;
 }
