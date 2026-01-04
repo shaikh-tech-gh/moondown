@@ -376,6 +376,7 @@ nav img {
 .page4 {
     min-height: 100vh;
     width: 100%;
+    padding-bottom: 3vw;
 }
 
 .proj {
@@ -486,7 +487,26 @@ nav img {
 }
 
 .page5 {
-    min-height: 90vh;
+    height: 70vh;
     width: 100%;
-    /* background-color: red; */
+    background-color: #e900e5;
+    padding: 4vw 3vw;
 }
+
+.swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #444;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide {
+      width: 30%;
+    }
