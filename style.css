@@ -484,3 +484,9 @@ nav img {
     color: #fff;
     padding-left: 2.5vw;
 }
+
+.page5 {
+    min-height: 90vh;
+    width: 100%;
+    /* background-color: red; */
+}
