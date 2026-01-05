@@ -28,3 +28,31 @@ var swiper = new Swiper(".mySwiper", {
       centeredSlides: true,
       spaceBetween: 30,
     });
+
+
+function designFunc() {
+    var designPara = document.querySelector(".changing-para")
+    designPara.innerHTML = "Our team works with our clients to refine an idea and concept into an executable design. We create a final design that encompasses the brand narrative to bring stories to life and provide end-to-end design solutions from concept, design, and architectural drawings to 3D renderings."
+    designPara.style.color = "#FFFFFF"
+    var designImg = document.querySelector(".changing-img")
+    designImg.src = "images/design-img.webp"
+}
+
+function projectFunc() {
+    var project1 = document.querySelector(".changing-para")
+    project1.innerHTML = "Once we have a design, our production team takes the lead in bringing it to life. We manage all stages of the project, from build specifications and technical drawings to site surveys, vendor management, and 2D & 3D production. We have an extensive network of partners to meet each unique design and project need."
+    project1.style.color = "#FFFFFF"
+    var projectimg = document.querySelector(".changing-img")
+    projectimg.src = "images/project-img.webp"
+    
+}
+
+function executionFunc() {
+    var execution1 = document.querySelector(".changing-para")
+    execution1.innerHTML = "We’re with you every step of the way, from the project initiation to launch day. Our production and design teams are onsite to direct and guide the process down to the last point of completion, ensuring success across the built space and experience."
+    execution1.style.color = "#FFFFFF"
+    var executionimg = document.querySelector(".changing-img")
+    executionimg.src = "images/execution-img.webp"
+}
+
+
