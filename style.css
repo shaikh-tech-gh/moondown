@@ -489,8 +489,8 @@ nav img {
 .page5 {
     height: 80vh;
     width: 100%;
-    background-color: #e900e5;
-    padding: 4vw 3vw;
+    /* background-color: #e900e5; */
+    padding: 5vw 1vw;
 }
 
 .swiper {
@@ -500,6 +500,15 @@ nav img {
 
 .swiper-slide {
       width: 30%;
-      border-left: 1.5px solid #fff;
+      border-left: 1px solid #e3e2e2;
       padding: 0 2vw;
+}
+
+.swiper-slide img {
+    padding: 2vw 2vw;
+}
+
+.swiper-slide p {
+    font-weight: 100;
+    padding-top: 2vw;
 }
