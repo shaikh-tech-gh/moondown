@@ -377,6 +377,10 @@ nav img {
     min-height: 100vh;
     width: 100%;
     padding-bottom: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .proj {
@@ -429,12 +433,12 @@ nav img {
 .page4-bottom {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     height: 110vh;
-    width: 100%;
-    /* background-color: aqua; */
+    width: 97%;
+    background-color: rgb(255, 11, 239);
     position: relative;
-    /* padding: 0 2vw; */
+    border-radius: 20px;
 }
 
 .page4-bottom .left {
@@ -468,7 +472,7 @@ nav img {
 
 .page4-bottom .left-part1 .design {
     font-size: 5vw;
-    color: #FFFFFF;
+    color: #000000;
     padding-left: 2.5vw;
     border-left: 2px solid red;
     cursor: pointer;
@@ -495,6 +499,7 @@ nav img {
     width: 100%;
     text-align: left;
     font-size: 1.4vw;
+    color: #000000;
 }
 
 .page5 {
