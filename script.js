@@ -3,6 +3,16 @@ const scroll = new LocomotiveScroll({
     smooth: true
 });
 
+var page1 = document.querySelector(".page1")
+var cursor = document.querySelector(".cursor")
+
+page1.addEventListener("mousemove",function(dets){
+    gsap.to(".cursor",{
+        x:dets.x,
+        y:dets.y,
+        duration: 0.6
+    })
+})
 
 var elemC = document.querySelector(".elem-container")
 var fixed = document.querySelector(".fixed-image")
