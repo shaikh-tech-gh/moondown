@@ -593,7 +593,7 @@ nav img {
 .loader {
     height: 100%;
     width: 100%;
-    background-color: #000000;
+    background-color: #FFFFFF;
     position: fixed;
     z-index: 999;
     top: 0;
@@ -605,7 +605,7 @@ nav img {
 
 .loader h1 {
     font-size: 7vw;
-    background: linear-gradient(to right, purple, white);
+    background: linear-gradient(to right, rgb(231, 4, 231), black);
     color: transparent;
     -webkit-background-clip: text;
     position: absolute;
