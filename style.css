@@ -608,4 +608,32 @@ nav img {
     background: linear-gradient(to right, purple, white);
     color: transparent;
     -webkit-background-clip: text;
+    position: absolute;
+    opacity: 0;
+    animation-name: load;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-delay: 1s;
+}
+
+.loader h1:nth-child(2){
+    animation-delay: 2s;
+}
+.loader h1:nth-child(3){
+    animation-delay: 3s;
+}
+
+@keyframes load {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    90%{
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
