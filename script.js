@@ -147,5 +147,5 @@ function executionFunc() {
 var loader = document.querySelector(".loader")
 setTimeout(function(){
     loader.style.top = "-100%"
-},3200)
+},3300)
 
