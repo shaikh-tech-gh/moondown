@@ -562,6 +562,7 @@ nav img {
     height: 100vh;
     width: 100%;
     background-color: rgba(252, 55, 255, 0.763);
+    z-index: 70;
 }
 
 .page6 .upper {
@@ -569,26 +570,37 @@ nav img {
     align-items: center;
     justify-content: space-between;
     padding: 7vw 5.5vw;
+    z-index: 80;
 }
 
 .page6 .left {
     /* background-color: red; */
     font-size: 2.5vw;
+    z-index: 90;
+    
 }
 
 .page6 .left h4 {
-    color: black;
+    color: white;
+    z-index: 99;
 }
 
 .page6 .right p{
-    color: black;
+    color: white;
     font-weight: 100;
     font-size: 1.5vw;
+    z-index: 99;
+}
+
+.page6 .right{
+    z-index: 90;
 }
 
 .page6 h1 {
     font-size: 20.2vw;
-    color: black;
+    color: white;
+    z-index: 80;
+    position: absolute;
 }
 
 .loader {
@@ -638,3 +650,88 @@ nav img {
         opacity: 0;
     }
 }
+
+.goovey1 {
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 75;
+    padding: 3vw;
+    filter: blur(25px);
+    animation-name: goovey1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+.goovey2 {
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 400px;
+    z-index: 75;
+    padding: 3vw;
+    filter: blur(25px);
+    animation-name: goovey2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+.goovey3 {
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 800px;
+    z-index: 75;
+    padding: 3vw;
+    filter: blur(25px);
+    animation-name: goovey3;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes goovey1 {
+    0% {
+        transform: translate(-100%, 50%);
+    }
+    50% {
+        transform: translate(0%, 0%);
+    }
+
+    100% {
+        transform: translate(100%, 50%);
+    }
+}
+
+@keyframes goovey2 {
+    0% {
+        transform: translate(50%, -50%);
+    }
+    50% {
+        transform: translate(0%, 0%);
+    }
+    100% {
+        transform: translate(-100%, -70%);
+    }
+}
+@keyframes goovey3 {
+    0% {
+        transform: translate(50%, 50%);
+    }
+    50% {
+        transform: translate(0%, 0%);
+    }
+    100% {
+        transform: translate(-100%, 100%);
+    }
+}
+
