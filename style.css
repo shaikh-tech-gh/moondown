@@ -581,12 +581,12 @@ nav img {
 }
 
 .page6 .left h4 {
-    color: white;
+    color: black;
     z-index: 99;
 }
 
 .page6 .right p{
-    color: white;
+    color: black;
     font-weight: 100;
     font-size: 1.5vw;
     z-index: 99;
@@ -598,7 +598,7 @@ nav img {
 
 .page6 h1 {
     font-size: 20.2vw;
-    color: white;
+    color: black;
     z-index: 80;
     position: absolute;
 }
@@ -654,7 +654,7 @@ nav img {
 .goovey1 {
     height: 400px;
     width: 400px;
-    background-color: black;
+    background-color: white;
     border-radius: 50%;
     position: absolute;
     z-index: 75;
@@ -669,7 +669,7 @@ nav img {
 .goovey2 {
     height: 400px;
     width: 400px;
-    background-color: black;
+    background-color: white;
     border-radius: 50%;
     position: absolute;
     left: 400px;
@@ -685,7 +685,7 @@ nav img {
 .goovey3 {
     height: 400px;
     width: 400px;
-    background-color: black;
+    background-color: white;
     border-radius: 50%;
     position: absolute;
     left: 800px;
