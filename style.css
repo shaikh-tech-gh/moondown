@@ -127,7 +127,7 @@ nav img {
     text-align: right;
 }
 
-.page1 video {
+.page1 .video {
     width: 100%;
     border-radius: 30px;
     position: relative;
@@ -650,6 +650,7 @@ nav img {
         opacity: 0;
     }
 }
+
 
 .goovey1 {
     height: 400px;

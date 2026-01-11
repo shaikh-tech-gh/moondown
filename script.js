@@ -3,7 +3,8 @@ const scroll = new LocomotiveScroll({
     smooth: true
 });
 
-var page1 = document.querySelector(".page1")
+var center = document.querySelector(".center")
+var video = document.querySelector(".video")
 var page2 = document.querySelector(".page2")
 var page3 = document.querySelector(".page3")
 var page4 = document.querySelector(".page4")
@@ -11,7 +12,17 @@ var page5 = document.querySelector(".page5")
 var page6 = document.querySelector(".page6")
 var cursor = document.querySelector(".cursor")
 
-page1.addEventListener("mousemove",function(dets){
+
+center.addEventListener("mousemove",function(dets){
+    gsap.to(".cursor",{
+        x:dets.x,
+        y:dets.y,
+        duration: 0.6,
+        opacity: 1,
+    })
+})
+
+video.addEventListener("mousemove",function(dets){
     gsap.to(".cursor",{
         x:dets.x,
         y:dets.y,
@@ -147,5 +158,5 @@ function executionFunc() {
 var loader = document.querySelector(".loader")
 setTimeout(function(){
     loader.style.top = "-100%"
-},3300)
+},3200)
 
