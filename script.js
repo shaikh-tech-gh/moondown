@@ -22,6 +22,13 @@ center.addEventListener("mousemove",function(dets){
     })
 })
 
+center.addEventListener("mouseleave",function(){
+    gsap.to(".cursor",{
+        opacity: 0,
+        duration: 0.6,
+    })
+})
+
 video.addEventListener("mousemove",function(dets){
     gsap.to(".cursor",{
         x:dets.x,
